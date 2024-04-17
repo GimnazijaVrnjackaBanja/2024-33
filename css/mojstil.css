@@ -1,0 +1,59 @@
+body {
+    background-color: blue;
+    color: rgba(255, 255, 255);
+}
+
+h1 {
+    background-color: aqua;
+    color: black;
+    padding: 50px;
+    border: 3px dotted red;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.macke {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 10px;
+    text-align: left;
+}
+
+#idh1 {
+    color: chartreuse;
+    text-align: right;
+    background-color: brown;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #120567;
+    color: yellow;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: yellow;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
